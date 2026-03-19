@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafes and Restaurants near AKARI KYOTO SHIJO - Enjoy local cuisine and specialty coffee">
+    <title>Cafes & Restaurants | AKARI KYOTO SHIJO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&family=Funnel+Sans:wght@300;400;500;600&family=M+PLUS+1+Code:wght@300;400;500&family=M+PLUS+1:wght@500&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body data-lang="EN" class="detail-page">
+    <!-- Navigation -->
+    <nav class="navigation" id="navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">AKARI KYOTO SHIJO</a>
+            </div>
+
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="EN">EN</button>
+                <button class="lang-btn" data-lang="JP">JP</button>
+                <button class="lang-btn" data-lang="中文">中文</button>
+            </div>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-menu-toggle" id="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html#why-stay" data-i18n="nav.whyStay">Why Stay Here</a></li>
+                <li><a href="index.html#your-space" data-i18n="nav.yourSpace">Your Space</a></li>
+                <li><a href="index.html#room-details" data-i18n="nav.roomDetails">Room Details</a></li>
+                <li><a href="index.html#area" data-i18n="nav.area">Around the Area</a></li>
+                <li><a href="index.html#contact" data-i18n="nav.contact">Contact</a></li>
+                <li><a href="https://airbnb.com" target="_blank" class="btn-book" data-i18n="nav.bookNow">Book Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="detail-hero">
+        <img src="assets/images/cafe-bg.png" alt="Cafes and Restaurants in Kyoto">
+        <div class="detail-hero-content">
+            <h1 data-i18n-heritage="title">Cafe and Restaurant</h1>
+            <p data-i18n-heritage="desc">Enjoy local cuisine and specialty coffee</p>
+        </div>
+    </section>
+
+    <!-- Back to Home Link -->
+    <div class="container">
+        <a href="index.html" class="back-link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            <span data-i18n="detailPage.backToHome">Back to Home</span>
+        </a>
+    </div>
+
+    <!-- Destinations Content -->
+    <section class="detail-content">
+        <div class="container">
+            <div class="destination-grid" id="cafe-destinations">
+                <!-- Destinations will be populated by JavaScript based on language -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer.copyright">© 2026 AKARI KYOTO SHIJO. All rights reserved.</p>
+            <p class="footer-registration" data-i18n="footer.registration">Residential Lodging Management Business: Ministry of Land, Infrastructure, Transport and Tourism (01) No. F05273</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/detail-pages.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
