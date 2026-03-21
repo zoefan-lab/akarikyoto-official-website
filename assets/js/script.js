@@ -8,33 +8,33 @@ let currentHeroImageIndex = 0;
 let heroSlideInterval;
 let currentGalleryIndex = 0;
 
-// Gallery data structure
+// Gallery Data
 const galleryData = {
     bedroom1: [
-        'assets/images/bedroom1-1.png',
-        'assets/images/bedroom1-2.png',
-        'assets/images/bedroom1-3.png',
-        'assets/images/bedroom1-4.png'
+        'assets/images/bedroom1-1.jpg',
+        'assets/images/bedroom1-2.jpg',
+        'assets/images/bedroom1-3.jpg',
+        'assets/images/bedroom1-4.jpg'
     ],
     bedroom2: [
-        'assets/images/bedroom2-1.png',
-        'assets/images/bedroom2-2.png',
-        'assets/images/bedroom2-3.png'
+        'assets/images/bedroom2-1.jpg',
+        'assets/images/bedroom2-2.jpg',
+        'assets/images/bedroom2-3.jpg'
     ],
     livingRoom: [
-        'assets/images/living-1.png',
-        'assets/images/living-2.png',
-        'assets/images/living-3.png'
+        'assets/images/living-1.jpg',
+        'assets/images/living-2.jpg',
+        'assets/images/living-3.jpg'
     ],
     bathroom: [
-        'assets/images/bathroom-1.png',
-        'assets/images/bathroom-2.png',
-        'assets/images/bathroom-3.png'
+        'assets/images/bathroom-1.jpg',
+        'assets/images/bathroom-2.jpg',
+        'assets/images/bathroom-3.jpg'
     ],
     view: [
-        'assets/images/view-1.png',
-        'assets/images/view-2.png',
-        'assets/images/view-3.png'
+        'assets/images/view-1.jpg',
+        'assets/images/view-2.jpg',
+        'assets/images/view-3.jpg'
     ]
 };
 
